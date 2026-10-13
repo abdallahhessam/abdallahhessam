@@ -1,96 +1,99 @@
 # Hi, I'm Abdallah Essam 👋
 
-### 🤖 Robotics & AI Specialist | Autonomous Systems | Embedded Engineering
+### 🤖 Mechatronics & Robotics Engineer | Autonomous Systems | Embedded Engineering | AI Perception
 
-I'm a Robotics & AI Specialist based in Dubai, UAE, with a background in **Automotive Mechatronics Engineering**. I enjoy developing intelligent robotic systems, exploring autonomous navigation, and bridging the gap between hardware and software.
+I'm a Robotics & AI Specialist at **Atlab** in Dubai, UAE, with a background in **Automotive Mechatronics Engineering**. I build robots end to end (mechanism, electronics, firmware and perception) and I train engineers and educators to do the same.
 
-Currently, I work at **Atlab**, delivering robotics, AI, and STEM training while supporting the integration of emerging technologies into education. Beyond education, I'm passionate about autonomous vehicles, computer vision, embedded systems, and automotive software architecture.
+At Atlab I develop and integrate robotic systems with ROS 2, RViz and Gazebo across robot arms, autonomous vehicles, humanoid and quadruped robots and UAVs, and deploy YOLO/ONNX perception on NVIDIA Jetson AGX Orin.
 
-## 🛠️ Technologies & Skills
-
-- **Robotics:** ROS 1, ROS 2, Gazebo, RViz, autonomous navigation, robot simulation
-- **Programming:** Python, C++, MATLAB
-- **AI & Computer Vision:** OpenCV, YOLO, object detection, perception
-- **Embedded Systems:** STM32, ESP32, Arduino, Raspberry Pi
-- **Automotive Software:** Adaptive AUTOSAR concepts, SOME/IP, CAN, MQTT
-- **Control & Simulation:** MATLAB/Simulink, PID control, sensor integration
-- **STEM & EdTech:** Robotics education, AI and coding, curriculum development, educator training
+🌐 **Portfolio:** [abdallahhessam.github.io](https://abdallahhessam.github.io/), with detailed case studies of the projects below.
 
 ## 🚀 Featured Projects
 
-### 🚗 [E-Rally Autonomous Track — EVER 2024](https://github.com/abdallahhessam/e-rally-autonomous-track)
+### 🚁 [UMEX Drone Challenge, Abu Dhabi 2026](https://github.com/abdallahhessam/UMEX_Drone_Challenge_AUH_2026)
 
-Autonomous-driving software developed by the E-Rally team at Helwan University for the EVER 2024 competition in Egypt.
+Technical mentorship for university students and graduate engineers programming Hula drones for autonomous missions.
 
-- Developed a ROS 1-based autonomous-driving stack in CoppeliaSim.
-- Integrated YOLO-based object detection and camera-based distance estimation.
-- Worked with Kalman-filtered odometry and PID control for vehicle navigation.
-- Supported simulation across four track types, including a custom track.
+- Built and taught reference solutions: DFS maze discovery, A* path planning and ONNX (YOLO11) object detection.
+- Flown on real drones, using proximity sensors and QR-code positioning.
+- Teams I mentored went on to place 2nd and 3rd.
 
-**Tech:** ROS 1 · Python · YOLO · OpenCV · CoppeliaSim · MATLAB
-
-### 🚘 [Adaptive AUTOSAR Communication Stack](https://github.com/abdallahhessam/Adaptive-AutoSAR-Com-Stack)
-
-My graduation project focused on an Adaptive AUTOSAR-inspired communication stack for an automotive infotainment system running on Raspberry Pi.
-
-- Implemented distributed communication using SOME/IP over Ethernet.
-- Explored service discovery, remote procedure calls, and publish/subscribe communication.
-- Integrated software components with an interactive touchscreen interface.
-- Worked with automotive software architecture and embedded Linux development concepts.
-
-**Tech:** C++ · SOME/IP · Adaptive AUTOSAR · Raspberry Pi · CMake
+**Tech:** Python · pyhula SDK · A* / BFS / DFS · ONNX Runtime · YOLO11 · OpenCV · Tkinter
 
 ### 🤖 [Scarab Combat Robot](https://github.com/abdallahhessam/scarab-combat-robot)
 
-A remotely controlled combat robot designed and built with **Team Pegasi** for the Metal Monsters competition at the Alamein Robotics Championship in Egypt.
+A combat robot built by **Team Pegasi**, which I founded, for Metal Monsters at the Alamein Robotics Championship in Egypt.
 
-- Achieved **4th place** at Metal Monsters, 4th Edition.
-- Contributed to a project involving chassis design, drivetrain integration, electronics, and firmware.
-- Used an ESP32 and Bluetooth-connected PS4 controller for robot control.
+- **4th place** at Metal Monsters, 4th edition.
+- Led the mechanical design: welded 2 mm steel chassis, chain drivetrain and a 350 W spinner weapon.
+- ESP32 control over a Bluetooth PS4 controller, with weapon arming and failsafes.
 
-**Tech:** ESP32 · Embedded C/C++ · Motor Control · Electronics · Mechanical Integration
+**Tech:** ESP32 · PlatformIO · Motor Control · Mechanical Design · Electronics
 
-### 🏎️ [RC Car with STM32](https://github.com/abdallahhessam/RC-Car)
+### 🚗 [E-Rally Autonomous Track (EVER 2024)](https://github.com/abdallahhessam/e-rally-autonomous-track)
 
-An embedded-systems project involving the development of a remote-controlled car using an STM32 ARM microcontroller.
+Autonomous-driving software by the E-Rally team at Helwan University for EVER 2024 in Egypt. I was part of the autonomous-track sub-team.
 
-- Organized firmware in C++.
-- Combined hardware design with microcontroller programming.
-- Explored motor control, system integration, and embedded development.
+- ROS 1 driving stack in CoppeliaSim across four tracks, including a custom track.
+- YOLO detection with single-camera distance estimation.
+- Kalman-filtered odometry and PID control for speed, steering and pedestrian stops.
 
-**Tech:** STM32 · C++ · Embedded Systems · Hardware Design
+**Tech:** ROS 1 · Python · YOLO · OpenCV · CoppeliaSim · MATLAB
 
-### 💡 [RGB LED — Color Blending](https://github.com/abdallahhessam/RGB)
+### 🌱 [Agri Plant-Health Robot](https://github.com/abdallahhessam/agri-plant-health-monitor)
 
-An embedded programming project demonstrating RGB LED control using an STM32 microcontroller to combine red, green, and blue light and produce white.
+A Raspberry Pi field robot that checks plant health, reads the soil, waters, harvests and reports to a server.
 
-**Tech:** STM32 · Embedded C · RGB LEDs · ST-LINK
+- TensorFlow Lite leaf classification (healthy, rust, powdery) with data fusion of soil moisture and pH readings.
+- MQTT telemetry to a Mosquitto broker, with SQLite storage and analysis.
+- Watering pump and servo harvesting arm.
 
-## 🏆 Experience & Certifications
+**Tech:** Raspberry Pi 4 · Python · TensorFlow Lite · OpenCV · MQTT · SQLite
 
-- ⚙️ Robotics & AI Specialist at Atlab, Dubai, UAE
-- 🤖 **ROS 2 Foundations – Packt**
-- 🎓 **STEM.org Certified™ Master Trainer**
-- 🧩 **LEGO Education Certified Trainer**
-- 💡 **Embedded C++ Diploma – Robotics Corner** 
-- 🚗 **AUTOSAR MasterClass – SPRINTS**
-- ⚙️ Engineering background spanning autonomous systems, automotive software, and embedded development
+### 🚘 [Adaptive AUTOSAR Communication Stack](https://github.com/abdallahhessam/Adaptive-AutoSAR-Com-Stack)
+
+My graduation project (**grade A+**): an Adaptive AUTOSAR-inspired communication stack for an infotainment system on Raspberry Pi.
+
+- Distributed communication with SOME/IP over Ethernet, plus MQTT publish/subscribe.
+- Service discovery, remote procedure calls and event-based communication.
+- Execution management and core types in modern C++.
+
+**Tech:** C++ · CMake · SOME/IP · Adaptive AUTOSAR · Raspberry Pi · Embedded Linux
+
+### 🔧 Smaller embedded projects
+
+- [RC Car with STM32](https://github.com/abdallahhessam/RC-Car): remote-controlled car on an STM32 ARM microcontroller, firmware in C++.
+- [RGB LED Color Blending](https://github.com/abdallahhessam/RGB): STM32 PWM color mixing, flashed with ST-LINK.
+
+## 🛠️ Technologies & Skills
+
+- **Robotics:** ROS 2, ROS 1, Gazebo, RViz, URDF, autonomous navigation, PID control
+- **Programming:** Python, Modern C++, Embedded C, MATLAB/Simulink, Bash
+- **AI & Computer Vision:** OpenCV, YOLO, ONNX Runtime, TensorFlow Lite, object detection
+- **Embedded Hardware:** NVIDIA Jetson AGX Orin, STM32, ESP32, Arduino, Raspberry Pi, PCB design
+- **Communication:** CAN, LIN, SOME/IP, Ethernet, MQTT, UART, I2C, SPI
+- **CAD & Fabrication:** SolidWorks, Fusion 360, OnShape, 3D printing
+- **Training & Education:** educator training, curriculum development, competition design
+
+## 🏆 Certifications & Recognition
+
+- 🤖 **ROS 2 Foundations**, Packt (Coursera)
+- 💡 **Embedded C++ Diploma**, Robotics Corner
+- 🧩 **LEGO Education Academy Teacher Trainer**
+- 🎓 **STEM.org Certified Master Trainer**
+- 🚗 **AUTOSAR MasterClass**, SPRINTS
+- 🥈 2nd place, NASA Space Apps Cairo 2019 (team leader)
+- 🔬 National finalist, ISEF Egypt 2017
 
 ## 🌱 What I'm Exploring
 
-- Autonomous mobile robots and intelligent navigation
-- Robot perception and AI-driven decision-making
-- ROS 2 and robotics simulation
-- Humanoid robotics and embodied AI
+- Robot learning and embodied AI
+- Humanoid and quadruped robotics
+- Autonomous navigation and robot perception
 - Automotive software and embedded systems
 
 ## 🤝 Let's Connect
 
-I'm always happy to connect with engineers, researchers, educators, and innovators working in robotics, AI, and autonomous systems.
-
+- 🌐 [Portfolio](https://abdallahhessam.github.io/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/abdallah-esam/)
-- 💻 [GitHub](https://github.com/abdallahhessam)
-
----
-
-⭐ Thanks for visiting my profile! Feel free to explore my repositories and connect with me.
+- 📧 esamabdallah683@gmail.com
